@@ -27,25 +27,21 @@ public:
     };
     
     Binary_Tree();
-    void Insert(char data);
     void Print_Preorder();
     void Print_Postorder();
     void Print_Inorder();
-    void insert_Tree(string);
+    bool IS_BST(Node* node);
+    void Print_Tree(Node *node);
     Node *Create_Tree(string User_Enter_Tree);
-    Node *Help_Build_Tree(string User_Enter_Tree, int &index);
     Node* root;
     Node* duplicate_root;
-    bool IS_BST(Node* node);
-    int index2;
+    int index;
     
 private:
     
-    void Caller(Node *node, char data);
     void Preorder(Node *node);
     void Postorder(Node *node);
     void Inorder(Node *node);
-    Node *Insert_Tree_Helper(Node *node, char data, int index);
 };
 
 #endif /* Binary_Tree_hpp */

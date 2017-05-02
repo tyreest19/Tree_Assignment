@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		847D30571EB30351003E98EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30561EB30351003E98EE /* main.cpp */; };
-		847D30621EB308DA003E98EE /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30601EB308DA003E98EE /* Utils.cpp */; };
 		847D30641EB44865003E98EE /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30631EB44865003E98EE /* Node.cpp */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		847D30531EB30351003E98EE /* Tree_Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tree_Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		847D30561EB30351003E98EE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		847D305E1EB304BB003E98EE /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
-		847D30601EB308DA003E98EE /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
-		847D30611EB308DA003E98EE /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
 		847D30631EB44865003E98EE /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,8 +63,6 @@
 				847D30561EB30351003E98EE /* main.cpp */,
 				847D30631EB44865003E98EE /* Node.cpp */,
 				847D305E1EB304BB003E98EE /* Node.hpp */,
-				847D30601EB308DA003E98EE /* Utils.cpp */,
-				847D30611EB308DA003E98EE /* Utils.hpp */,
 			);
 			path = Tree_Assignment;
 			sourceTree = "<group>";
@@ -131,7 +126,6 @@
 			files = (
 				847D30641EB44865003E98EE /* Node.cpp in Sources */,
 				847D30571EB30351003E98EE /* main.cpp in Sources */,
-				847D30621EB308DA003E98EE /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

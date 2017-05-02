@@ -27,5 +27,7 @@ int main()
     cout << "\n";
     string is_binary_search_tree = tree.IS_BST(tree.root) ? "true": "false";
     cout << "Is this tree a binary search tree: " << is_binary_search_tree << "\n";
+    cout << "Graphical Representation of Tree\n";
+    tree.Print_Tree(tree.root);
     return 0;
 }
