@@ -128,5 +128,31 @@ Binary_Tree:: Node* Binary_Tree:: Create_Tree(string User_Enter_Tree)
     return nullptr;
 }
 
+bool Binary_Tree:: IS_BST(Node* node)
+{
+    
+    if (node && node->Left)
+    {
+        if (node->data < node->Left->data)
+        {
+            return false;
+        }
+        
+        IS_BST(node->Left);
+        IS_BST(node->Left->Left);
+    }
 
+    if (node && node->Right)
+    {
+        if (node->data > node->Right->data)
+        {
+            return false;
+        }
+        
+        IS_BST(node->Right);
+        IS_BST(node->Right->Right);
+    }
+    
+    return true;
+}
 

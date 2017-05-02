@@ -36,6 +36,7 @@ public:
     Node *Help_Build_Tree(string User_Enter_Tree, int &index);
     Node* root;
     Node* duplicate_root;
+    bool IS_BST(Node* node);
     int index2;
     
 private:
