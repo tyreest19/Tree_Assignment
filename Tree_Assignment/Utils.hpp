@@ -10,9 +10,12 @@
 #define Utils_hpp
 
 #include <stdio.h>
-#include "Binary_Tree.hpp"
+#include "Node.hpp"
 
-void Print_Preorder(Node node);
-void Print_Inorder(Node *node);
-void Print_Postorder(Node *node);
+//void Print_Preorder(Node *node);
+//void Print_Inorder(Node *node);
+//void Print_Postorder(Node *node);
+//void Insert(Node *node, char data);
+//bool Is_In(Binary_Tree T, char data);
+//char helper(Node *node);
 #endif /* Utils_hpp */

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		847D30571EB30351003E98EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30561EB30351003E98EE /* main.cpp */; };
 		847D30621EB308DA003E98EE /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30601EB308DA003E98EE /* Utils.cpp */; };
+		847D30641EB44865003E98EE /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 847D30631EB44865003E98EE /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		847D305E1EB304BB003E98EE /* Node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		847D30601EB308DA003E98EE /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
 		847D30611EB308DA003E98EE /* Utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+		847D30631EB44865003E98EE /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				847D30561EB30351003E98EE /* main.cpp */,
+				847D30631EB44865003E98EE /* Node.cpp */,
 				847D305E1EB304BB003E98EE /* Node.hpp */,
 				847D30601EB308DA003E98EE /* Utils.cpp */,
 				847D30611EB308DA003E98EE /* Utils.hpp */,
@@ -126,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847D30641EB44865003E98EE /* Node.cpp in Sources */,
 				847D30571EB30351003E98EE /* main.cpp in Sources */,
 				847D30621EB308DA003E98EE /* Utils.cpp in Sources */,
 			);
@@ -254,6 +258,7 @@
 				847D305C1EB30351003E98EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

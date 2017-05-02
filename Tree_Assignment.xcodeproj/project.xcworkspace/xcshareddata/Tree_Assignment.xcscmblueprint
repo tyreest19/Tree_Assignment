@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CEDDE48DD3344CAF40C86D46CD0CA71587A51707",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEDDE48DD3344CAF40C86D46CD0CA71587A51707" : 9223372036854775807,
+    "1DF720042FCB6B99B66292189496DB503A3D5E3F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE806D45-D066-4673-88A8-8917FD48106C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEDDE48DD3344CAF40C86D46CD0CA71587A51707" : "Tree_Assignment\/",
+    "1DF720042FCB6B99B66292189496DB503A3D5E3F" : "Tree_Assignment\/Tree_Assignment\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tree_Assignment",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tree_Assignment.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tyreest19\/Tree_Assignment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1DF720042FCB6B99B66292189496DB503A3D5E3F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tyreest19\/Tree_Assignment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEDDE48DD3344CAF40C86D46CD0CA71587A51707"
+    }
+  ]
+}
