@@ -16,6 +16,7 @@
 Binary_Tree:: Binary_Tree()
 {
     root = nullptr;
+    height = 0;
     index = 0;
 }
 
@@ -137,6 +138,57 @@ Binary_Tree:: Node* Binary_Tree:: Create_Tree(string User_Enter_Tree)
 }
 
 //=========================================================================================
+// Get height of tree
+//=========================================================================================
+
+int Binary_Tree:: Get_Height(Node *node)
+{
+    if (!node)
+    {
+        return 0;
+    }
+    
+    else
+    {
+        int left_height = Get_Height(node->Left);
+        int right_height = Get_Height(node->Right);
+        return right_height > left_height ? right_height + 1 : left_height + 1;
+    }
+}
+
+//=========================================================================================
+// Prints node on a patricular level
+//=========================================================================================
+
+void Binary_Tree:: Print_Level(Node* node, int level)
+{
+    if (!node)
+        return;
+    
+    if (level == 1)
+        cout << node->data;
+    
+    else if (level > 1)
+    {
+        Print_Level(node->Left, level-1);
+        Print_Level(node->Right, level-1);
+    }
+}
+
+//=========================================================================================
+// Prints level order
+//=========================================================================================
+
+void Binary_Tree:: Print_Level_Order(Node* node)
+{
+    int height = Get_Height(node);
+    for (int i= 1; i <= height; i++)
+    {
+        Print_Level(node, i);
+    }
+}
+
+//=========================================================================================
 // Assist Print_Preorder function
 //=========================================================================================
 
@@ -186,3 +238,13 @@ void Binary_Tree:: Inorder(Node *node)
         Inorder(node->Right);
     }
 }
+
+//void Binary_Tree:: Level_Order(Node *node)
+//{
+//    if (node == nullptr)
+//    {
+//        count << ".";
+//    }
+//}
+//
+

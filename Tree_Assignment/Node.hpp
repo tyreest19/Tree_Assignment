@@ -32,10 +32,14 @@ public:
     void Print_Inorder();
     bool IS_BST(Node* node);
     void Print_Tree(Node *node);
-    Node *Create_Tree(string User_Enter_Tree);
+    Node* Create_Tree(string User_Enter_Tree);
+    int Get_Height(Node *node);
+    void Print_Level(Node* node, int level);
+    void Print_Level_Order(Node* node);
     Node* root;
     Node* duplicate_root;
     int index;
+    int height;
     
 private:
     
